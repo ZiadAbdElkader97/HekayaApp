@@ -1,7 +1,7 @@
 import "./Home.css";
 import { Suspense, useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Environment, OrbitControls, useGLTF } from "@react-three/drei";
+import { Environment, useGLTF } from "@react-three/drei";
 import gsap from "gsap";
 
 function Character({ visible }) {
